@@ -1,0 +1,100 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 5rem;
+    }
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    box-shadow: .75rem .75rem 1rem black;
+    width: 50%;
+    border-radius: .25rem;
+    box-sizing: content-box;
+    padding: 0rem;
+    justify-content: left;
+    align-items: center;
+    text-align:left;
+}
+.login-title{
+    background-color: black;
+    color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    padding: 1rem;
+    width: 100%;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: .25rem;
+    box-sizing: border-box;
+}
+.login-label{
+    width: 90%;
+    margin-top: 1em;
+}
+.login-input{
+    display: block;
+    width: 90%;
+    height: 2.5rem;
+    padding: .5rem;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    text-align: left;
+}
+.block-div{
+    display: flex;
+    margin: 1rem;
+    text-align: left;
+    justify-content: right;
+    align-items: center;
+    width: 92%;
+}
+.password-button, .login-button{
+    width: auto;
+    background-color: navy;
+    border-color: navy;
+    color: white;
+    font-size: 1rem;
+    padding: .5rem;
+    font-weight: bold;
+    height: 3rem;
+    width: 16rem;
+}
+
+.login-button:hover{
+    opacity: .7;
+}
+.login-button:active {
+    opacity: 1;
+}
+
+@media (max-width:780px) {
+    .login-container{
+        width: 100%;
+        margin: 1rem;
+        padding: 0;
+        margin: 0;
+        padding-top: 7rem;
+    }
+    .login-form{
+        width: 80%;
+        margin: 0;
+    }
+    .login-title{
+        display: none;
+    }
+.password-button{
+    display: none;
+}
+.login-button {
+width: 100%;
+}
+.block-div {
+    flex-direction: column;
+
+}
+}

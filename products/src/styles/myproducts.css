@@ -1,0 +1,87 @@
+/* DisplayProducts.css */
+
+/* Container styles */
+.my-products {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: left;
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item styles */
+li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+/* Field label styles */
+strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Field value styles */
+p {
+    margin: 0;
+    color: #555;
+}
+
+/* Add spacing between items */
+li+li {
+    margin-top: 20px;
+}
+
+.del-button{
+    position: absolute;
+    right: 0.5rem;
+    color: blue;
+    font-weight: bold;
+    font-size: 2rem;
+    opacity: .7;
+    transition: .1s;
+}
+.del-button:hover{
+    opacity: 1;
+    /* color:red; */
+}
+.del-button:active {
+    opacity: 1;
+    color: red;
+}
+
+.new-button{
+    padding: .5rem 1rem;
+    background-color: rgb(16, 16, 146);
+    transition: .25s;
+    color: white;
+    border-radius: .25rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+.new-button:hover {
+    background-color: rgb(16, 16, 125);
+}.new-button:active {
+    background-color: rgb(10, 10, 91);
+    box-shadow: 0px 0px 2px black;
+}

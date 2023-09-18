@@ -1,0 +1,52 @@
+body::-webkit-scrollbar{
+width: 0;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.App-header-fixed {
+  position: fixed;
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  padding: .5rem;
+}
+.sign-out{
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  border-radius: .25rem;
+  background-color: orangered;
+  padding: .5rem 1rem;
+  color: white;
+}
+
+button{
+  padding: .5rem 1rem;
+  border-radius: .25rem;
+}
